@@ -1,0 +1,48 @@
+.shop {
+  position: relative;
+}
+
+.shop-footer:before {
+  content: "";
+  position: absolute;
+  border-left: 3px solid rgba(88, 88, 88, 0.103);
+  height: 190px;
+  left: -200px;
+  bottom: 0;
+  margin: auto;
+}
+
+.shop-footer::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid rgba(88, 88, 88, 0.103);
+  height: 190px;
+  right: -200px;
+  bottom: 0;
+  margin: auto;
+}
+
+
+
+.shop-footer {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+
+.shop-about__item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  line-height: 1.917;
+}
+
+.shop-about__item a:hover{
+  color: orange;
+}
+
+
+

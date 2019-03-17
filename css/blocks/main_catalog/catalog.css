@@ -1,0 +1,10 @@
+.catalog {
+  transition: 1s all;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.catalog.preload {
+  opacity: 0;
+}

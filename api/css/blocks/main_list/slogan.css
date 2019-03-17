@@ -1,0 +1,39 @@
+.slogan {
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__slogan {
+  font-size: 70px;
+  font-family: "Myriad Pro";
+  font-weight: 300;
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-slogan__text {
+  font-size: 24px;
+  font-family: "Georgia";
+  color: rgb(96, 96, 96);
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-slogan__button {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  border: 3px solid rgb(149, 149, 149);
+  width: 227px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  cursor: pointer;
+  margin: auto;
+}

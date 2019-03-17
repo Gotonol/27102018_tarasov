@@ -1,0 +1,14 @@
+.basket {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+}
+
+.basket__pic {
+  background: url(/images/icons/bascet.png) center center / contain no-repeat;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,26 @@
+.social-footer {
+  color: black;
+  font-size: 28px;
+}
+
+.social__item {
+  font-size: 20px;
+}
+
+.social_twitter {
+  background: url(/images/icons/twit.png) center center / contain no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.social_facebook {
+  background: url(/images/icons/Face.png) center center / contain no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.social_instagram {
+  background: url(/images/icons/Insta.png) center center / contain no-repeat;
+  width: 40px;
+  height: 40px;
+}

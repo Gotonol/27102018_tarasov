@@ -1,0 +1,57 @@
+.social-footer {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+
+.social__item {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  line-height: 1.917;
+}
+
+.social-icon {
+  margin-top: 15px;
+  display: flex;
+  flex: wrap;
+  
+}
+
+.border__social {
+  display: flex;
+  border: 2px solid rgba(70, 69, 69, 0.555);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.border__social:not(:first-child) {
+  margin-left: 10px;
+}
+
+.social_twitter {
+  background: url(/images/icons/twit.png) center center / contain no-repeat;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  
+}
+
+.social_facebook {
+  background: url(/images/icons/Face.png) center center / contain no-repeat;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.social_instagram {
+  background: url(/images/icons/Insta.png) center center / contain no-repeat;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+

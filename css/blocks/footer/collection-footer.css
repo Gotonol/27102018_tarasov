@@ -1,0 +1,19 @@
+.сollection-footer {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+
+.сollection-footer__item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  line-height: 1.917;
+}
+
+.сollection-footer__item a:hover {
+  color: orange;
+}

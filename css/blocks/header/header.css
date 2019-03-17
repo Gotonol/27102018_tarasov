@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+.header:before {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid rgba(88, 88, 88, 0.103);
+  width: 100%; 
+  top: 120px;
+  margin: auto;
+}

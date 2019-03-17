@@ -1,0 +1,14 @@
+.сollection-footer {
+  color: black;
+  font-size: 28px;
+}
+
+.сollection-footer__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.сollection-footer__item a:hover {
+  color: orange;
+}
