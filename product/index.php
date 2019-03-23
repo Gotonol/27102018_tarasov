@@ -28,13 +28,9 @@
 
   }
 
-  echo "<pre>";
-  print_r($template['sizes']);
-  echo "</pre>"
-
-
- !!!!
- 
+  // echo "<pre>";
+  // print_r($template['sizes']);
+  // echo "</pre>"
 
 ?>
 <div class="product">
