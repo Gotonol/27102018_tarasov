@@ -1,0 +1,13 @@
+.size {
+  font-size: 24px;
+  font-family: "Lato";
+  color: rgb(70, 69, 66);
+  text-transform: uppercase;
+  line-height: 4;
+  padding-left: 10px;
+}
+
+.size span {
+  padding: 10px;
+  border: 2px solid gray;
+}

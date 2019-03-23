@@ -1,0 +1,7 @@
+.products__name {
+  font-size: 36px;
+  font-family: "Myriad Pro";
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  line-height: 2;
+}
