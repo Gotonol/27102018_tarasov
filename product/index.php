@@ -1,6 +1,6 @@
 <?php 
   $cssFiles = [
-    '/css/dist/product.css'
+    '/css/product.css'
   ];
   include($_SERVER['DOCUMENT_ROOT'].'/parts/header.php');
 
@@ -34,17 +34,20 @@
 
 ?>
 <div class="product">
-  <h1><?=$template['product']['name']?></h1>
-  <p class="ptoducts__artic"><?=$template['product']['sku']?></p>
-  <img src ="<?=$template['product']['photo']?>" class="products__img">
-  <div class="products__text"><?=$template['product']['description']?></div>
-  <div class="products_price"><?=$template['product']['price']?>.руб</div>
+  <div>
+    <img src ="<?=$template['product']['photo']?>" class="products__img">
+    <h1 class="products__name"><?=$template['product']['name']?></h1>
+    <p class="ptoducts__artic">Артикул :<?=$template['product']['sku']?></p>
+    <div class="products__text"><?=$template['product']['description']?></div>
+    <div class="products_price"><?=$template['product']['price']?>.руб</div>
+    <div class="size">
+      <?php foreach ($template['sizes'] as $size):?>
+        <span><?=$size['size']?></span>
+      <?php endforeach;?>
+    </div>
+  </div>
 </div>
-<div class="size">
-  <?php foreach ($template['sizes'] as $size):?>
-    <span><?=$size['size']?></span>
-  <?php endforeach;?>
-</div>
+
 
 <?php 
   include($_SERVER['DOCUMENT_ROOT'].'/parts/footer.php');

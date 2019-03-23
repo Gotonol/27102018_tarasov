@@ -12,18 +12,4 @@
 @import url("blocks/footer/collection-footer.css");
 @import url("blocks/footer/shop.css");
 @import url("blocks/footer/social.css");
-.pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: nowrap;
-      -ms-flex: nowrap;
-          flex: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 /*# sourceMappingURL=catalog.css.map */

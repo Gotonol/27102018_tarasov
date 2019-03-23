@@ -1,31 +1,37 @@
-@import url('blocks/header/bascet.css');
-@import url('blocks/header/header.css');
-@import url('blocks/header/logo.css');
-@import url('blocks/header/navigation.css');
-@import url('blocks/header/user-info.css');
-@import url('blocks/header/wrapper.css');
-
-.product{
+@import url("blocks/header/bascet.css");
+@import url("blocks/header/header.css");
+@import url("blocks/header/logo.css");
+@import url("blocks/header/navigation.css");
+@import url("blocks/header/user-info.css");
+@import url("blocks/header/wrapper.css");
+@import url("blocks/footer/footer.css");
+@import url("blocks/footer/collection-footer.css");
+@import url("blocks/footer/shop.css");
+@import url("blocks/footer/social.css");
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
-
-
 
 .products__img {
   max-height: 639px;
   max-width: 900px;
 }
 
-
 .products__name {
   font-size: 36px;
   font-family: "Myriad Pro";
-  color: rgb(48, 48, 48);
+  color: #303030;
   text-transform: uppercase;
   line-height: 2;
 }
@@ -41,7 +47,7 @@
 .products__text {
   font-size: 24px;
   font-family: "Myriad Pro";
-  color: rgb(96, 96, 96);
+  color: #606060;
   line-height: 2;
 }
 
@@ -54,7 +60,7 @@
 .size {
   font-size: 24px;
   font-family: "Lato";
-  color: rgb(70, 69, 66);
+  color: #464542;
   text-transform: uppercase;
   line-height: 4;
   padding-left: 10px;
@@ -64,25 +70,4 @@
   padding: 10px;
   border: 2px solid gray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import url('blocks/footer/footer.css');
-@import url('blocks/footer/collection-footer.css');
-@import url('blocks/footer/shop.css');
-@import url('blocks/footer/social.css');
+/*# sourceMappingURL=product.css.map */
