@@ -12,7 +12,7 @@
     ]
   ];
 
-  // sleep(2);
+// sleep(2);
 $sql_len = "SELECT COUNT(id) as len FROM products";
 $count_products = mysqli_fetch_assoc( mysqli_query($db, $sql_len))['len'];
 $result_data['pagination']['coutPage'] = ceil($count_products / $count_on_page);
