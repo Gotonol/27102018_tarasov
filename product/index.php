@@ -1,6 +1,6 @@
 <?php 
   $cssFiles = [
-    '/css/dist/catalog.css'
+    '/css/dist/product.css'
   ];
   include($_SERVER['DOCUMENT_ROOT'].'/parts/header.php');
 
