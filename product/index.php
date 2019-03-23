@@ -18,8 +18,8 @@
 
       $template['product']= mysqli_fetch_assoc($result);
 
-    $sql_size = "SELECT * FROM product_sizes WHERE id={$product_id}";
-    $result_sizes = mysqli_query($db, $sql_size);
+    $sql_sizes = "SELECT * FROM product_sizes WHERE product_id={$product_id}";
+    $result_sizes = mysqli_query($db, $sql_sizes);
     
 
     while( $row = mysqli_fetch_assoc($result_sizes) ){
@@ -33,6 +33,7 @@
   echo "</pre>"
 
 
+ !!!!
  
 
 ?>
@@ -44,8 +45,9 @@
   <div class="products_price"><?=$template['product']['price']?>.руб</div>
 </div>
 <div class="size">
-  <?php foreach ($template as $size):?>
-  
+  <?php foreach ($template['sizes'] as $size):?>
+    <span><?=$size['size']?></span>
+  <?php endforeach;?>
 </div>
 
 <?php 
