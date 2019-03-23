@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.main-slogan__text {
+.main__text {
   font-size: 24px;
   font-family: "Georgia";
   color: rgb(96, 96, 96);
@@ -24,16 +24,15 @@
   margin-bottom: 50px;
 }
 
-.main-slogan__button {
+.main__button {
   font-size: 14px;
   font-family: "Myriad Pro";
   color: rgb(48, 48, 48);
   text-transform: uppercase;
   border: 3px solid rgb(149, 149, 149);
   width: 227px;
-  height: 58px;
+  padding: 16px 20px 13px;
   text-align: center;
-  line-height: 58px;
   cursor: pointer;
   margin: auto;
 }
